@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		F68CF0842D5FD5D6008449E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0832D5FD5D6008449E8 /* AppDelegate.swift */; };
-		F68CF0862D5FD5D6008449E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0852D5FD5D6008449E8 /* SceneDelegate.swift */; };
-		F68CF0882D5FD5D6008449E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0872D5FD5D6008449E8 /* ViewController.swift */; };
-		F68CF08B2D5FD5D6008449E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F68CF08A2D5FD5D6008449E8 /* Base */; };
+		F68CF0882D5FD5D6008449E8 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0872D5FD5D6008449E8 /* MyViewController.swift */; };
 		F68CF08D2D5FD5D7008449E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68CF08C2D5FD5D7008449E8 /* Assets.xcassets */; };
 		F68CF0902D5FD5D7008449E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F68CF08F2D5FD5D7008449E8 /* Base */; };
+		F68CF0AB2D5FE29A008449E8 /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0A52D5FE29A008449E8 /* ProductListPresenter.swift */; };
+		F68CF0AC2D5FE29A008449E8 /* ProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0A62D5FE29A008449E8 /* ProductListRouter.swift */; };
+		F68CF0AD2D5FE29A008449E8 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0A72D5FE29A008449E8 /* ProductListViewController.swift */; };
+		F68CF0AE2D5FE29A008449E8 /* ProductListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0A82D5FE29A008449E8 /* ProductListProtocols.swift */; };
+		F68CF0AF2D5FE29A008449E8 /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0A92D5FE29A008449E8 /* ProductListInteractor.swift */; };
+		F68CF0B02D5FE29A008449E8 /* ProductListEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0AA2D5FE29A008449E8 /* ProductListEntities.swift */; };
+		F68CF0B22D5FE539008449E8 /* RemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0B12D5FE539008449E8 /* RemoteDataManager.swift */; };
+		F68CF0BA2D5FEA9A008449E8 /* ProductDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0B42D5FEA9A008449E8 /* ProductDetailPresenter.swift */; };
+		F68CF0BB2D5FEA9A008449E8 /* ProductDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0B52D5FEA9A008449E8 /* ProductDetailRouter.swift */; };
+		F68CF0BC2D5FEA9A008449E8 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0B62D5FEA9A008449E8 /* ProductDetailViewController.swift */; };
+		F68CF0BD2D5FEA9A008449E8 /* ProductDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0B72D5FEA9A008449E8 /* ProductDetailProtocols.swift */; };
+		F68CF0BE2D5FEA9A008449E8 /* ProductDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CF0B82D5FEA9A008449E8 /* ProductDetailInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F68CF0802D5FD5D6008449E8 /* ViperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68CF0832D5FD5D6008449E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F68CF0852D5FD5D6008449E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F68CF0872D5FD5D6008449E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F68CF08A2D5FD5D6008449E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F68CF0872D5FD5D6008449E8 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		F68CF08C2D5FD5D7008449E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68CF08F2D5FD5D7008449E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F68CF0912D5FD5D7008449E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68CF0A52D5FE29A008449E8 /* ProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
+		F68CF0A62D5FE29A008449E8 /* ProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRouter.swift; sourceTree = "<group>"; };
+		F68CF0A72D5FE29A008449E8 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		F68CF0A82D5FE29A008449E8 /* ProductListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListProtocols.swift; sourceTree = "<group>"; };
+		F68CF0A92D5FE29A008449E8 /* ProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
+		F68CF0AA2D5FE29A008449E8 /* ProductListEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListEntities.swift; sourceTree = "<group>"; };
+		F68CF0B12D5FE539008449E8 /* RemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataManager.swift; sourceTree = "<group>"; };
+		F68CF0B42D5FEA9A008449E8 /* ProductDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailPresenter.swift; sourceTree = "<group>"; };
+		F68CF0B52D5FEA9A008449E8 /* ProductDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailRouter.swift; sourceTree = "<group>"; };
+		F68CF0B62D5FEA9A008449E8 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		F68CF0B72D5FEA9A008449E8 /* ProductDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailProtocols.swift; sourceTree = "<group>"; };
+		F68CF0B82D5FEA9A008449E8 /* ProductDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,41 @@
 		F68CF0822D5FD5D6008449E8 /* ViperApp */ = {
 			isa = PBXGroup;
 			children = (
+				F68CF0872D5FD5D6008449E8 /* MyViewController.swift */,
+				F68CF0A42D5FE272008449E8 /* ProductList */,
+				F68CF0B32D5FEA70008449E8 /* ProductDetail */,
 				F68CF0832D5FD5D6008449E8 /* AppDelegate.swift */,
-				F68CF0852D5FD5D6008449E8 /* SceneDelegate.swift */,
-				F68CF0872D5FD5D6008449E8 /* ViewController.swift */,
-				F68CF0892D5FD5D6008449E8 /* Main.storyboard */,
+				F68CF0B12D5FE539008449E8 /* RemoteDataManager.swift */,
 				F68CF08C2D5FD5D7008449E8 /* Assets.xcassets */,
 				F68CF08E2D5FD5D7008449E8 /* LaunchScreen.storyboard */,
 				F68CF0912D5FD5D7008449E8 /* Info.plist */,
 			);
 			path = ViperApp;
+			sourceTree = "<group>";
+		};
+		F68CF0A42D5FE272008449E8 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				F68CF0A52D5FE29A008449E8 /* ProductListPresenter.swift */,
+				F68CF0A62D5FE29A008449E8 /* ProductListRouter.swift */,
+				F68CF0A72D5FE29A008449E8 /* ProductListViewController.swift */,
+				F68CF0A82D5FE29A008449E8 /* ProductListProtocols.swift */,
+				F68CF0A92D5FE29A008449E8 /* ProductListInteractor.swift */,
+				F68CF0AA2D5FE29A008449E8 /* ProductListEntities.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		F68CF0B32D5FEA70008449E8 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F68CF0B42D5FEA9A008449E8 /* ProductDetailPresenter.swift */,
+				F68CF0B52D5FEA9A008449E8 /* ProductDetailRouter.swift */,
+				F68CF0B62D5FEA9A008449E8 /* ProductDetailViewController.swift */,
+				F68CF0B72D5FEA9A008449E8 /* ProductDetailProtocols.swift */,
+				F68CF0B82D5FEA9A008449E8 /* ProductDetailInteractor.swift */,
+			);
+			path = ProductDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +173,6 @@
 			files = (
 				F68CF08D2D5FD5D7008449E8 /* Assets.xcassets in Resources */,
 				F68CF0902D5FD5D7008449E8 /* Base in Resources */,
-				F68CF08B2D5FD5D6008449E8 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +183,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68CF0882D5FD5D6008449E8 /* ViewController.swift in Sources */,
+				F68CF0882D5FD5D6008449E8 /* MyViewController.swift in Sources */,
+				F68CF0AB2D5FE29A008449E8 /* ProductListPresenter.swift in Sources */,
+				F68CF0AC2D5FE29A008449E8 /* ProductListRouter.swift in Sources */,
+				F68CF0BA2D5FEA9A008449E8 /* ProductDetailPresenter.swift in Sources */,
+				F68CF0BB2D5FEA9A008449E8 /* ProductDetailRouter.swift in Sources */,
+				F68CF0BC2D5FEA9A008449E8 /* ProductDetailViewController.swift in Sources */,
+				F68CF0BD2D5FEA9A008449E8 /* ProductDetailProtocols.swift in Sources */,
+				F68CF0BE2D5FEA9A008449E8 /* ProductDetailInteractor.swift in Sources */,
+				F68CF0AD2D5FE29A008449E8 /* ProductListViewController.swift in Sources */,
+				F68CF0AE2D5FE29A008449E8 /* ProductListProtocols.swift in Sources */,
+				F68CF0AF2D5FE29A008449E8 /* ProductListInteractor.swift in Sources */,
+				F68CF0B22D5FE539008449E8 /* RemoteDataManager.swift in Sources */,
+				F68CF0B02D5FE29A008449E8 /* ProductListEntities.swift in Sources */,
 				F68CF0842D5FD5D6008449E8 /* AppDelegate.swift in Sources */,
-				F68CF0862D5FD5D6008449E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F68CF0892D5FD5D6008449E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F68CF08A2D5FD5D6008449E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F68CF08E2D5FD5D7008449E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -297,9 +345,9 @@
 				INFOPLIST_FILE = ViperApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +355,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cafv.gendra.ViperApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +377,9 @@
 				INFOPLIST_FILE = ViperApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +387,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cafv.gendra.ViperApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
